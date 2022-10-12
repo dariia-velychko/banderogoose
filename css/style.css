@@ -31,20 +31,20 @@ header {
     margin-left: 16px;
 }
 
-.banderogus-container {
+.banderogus__container {
     background: #fff;
     padding: 60px 56px 60px 56px;
     align-self: center;
 }
 
-.banderogus-title {
+.banderogus__title {
     color: #1B1D1F;
     font-weight: 600;
     font-size: 64px;
     line-height: 72px;
 }
 
-.banderogus-greeting {
+.banderogus__greeting {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -52,7 +52,7 @@ header {
     margin-bottom: 16px;
 }
 
-.banderogus-start-text {
+.banderogus__start-text {
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
@@ -60,7 +60,7 @@ header {
     margin-bottom: 48px;
 }
 
-.banderogus-descr {
+.banderogus__descr {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -69,7 +69,7 @@ header {
     margin-bottom: 48px;
 }
 
-.banderogus-launch {
+.banderogus__launch {
     background: #FF6B0A;
     border-radius: 8px;
     padding: 12px 24px;
@@ -86,18 +86,18 @@ header {
     height: 100%;
 }
 
-.banderogus-image {
+.banderogus__image {
     align-self: flex-end;
 }
 
-.gus-facts {
+.gus__facts {
     padding: 52px 0 72px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.gus-title {
+.gus__title {
     font-weight: 600;
     font-size: 64px;
     line-height: 72px;
@@ -105,7 +105,7 @@ header {
     margin: 16px 0;
 }
 
-.gus-dscr {
+.gus__dscr {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -113,17 +113,17 @@ header {
     width: 875px;
 }
 
-.gus-facts-container {
+.gus__facts-container {
     width: 1170px;
     display: flex;
     justify-content: space-between;
 }
 
-.gus-fact-iten {
+.gus__fact-item {
    width: 33%; 
 }
 
-.gus-fact-title {
+.gus__fact-title {
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
@@ -131,7 +131,7 @@ header {
     margin: 12px 0 32px 0;
 }
 
-.gus-fact-descr {
+.gus__fact-descr {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -139,7 +139,7 @@ header {
     width: 280px;
 }
 
-.victory-bgd {
+.victory__bgd {
     width: 1160px;
     padding: 72px 0;
     background: linear-gradient(269.77deg, #D3EFFF 0.18%, #FFFFFF 98.98%, rgba(10, 202, 250, 0.03125) 98.99%);
@@ -149,12 +149,12 @@ header {
     align-items: center;
     } 
 
-.victory-footer {
+.victory__footer {
     display: flex;
     justify-content: center;
 }
 
-.victory-title {
+.victory__title {
     font-weight: 600;
     font-size: 48px;
     line-height: 100px;
@@ -162,7 +162,7 @@ header {
     margin: 16px 0;
 }
 
-.victory-descr {
+.victory__descr {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -171,7 +171,7 @@ header {
     text-align: center;
 }
 
-.modal-bgd {
+.modal__bgd {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -186,20 +186,20 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
-.modal-form {    
+.modal__form {    
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
 
-.modal-form-container {
+.modal__form-container {
     background-color: #FFFFFF;
     padding: 32px 92px 60px 92px;
     position: relative;
 }
 
-.modal-form-title{
+.modal__form-title{
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
@@ -207,7 +207,7 @@ header {
     margin: 32px 0 12px 0;
 }
 
-.modal-form-descr {
+.modal__form-descr {
     color: #000000;
     font-weight: 400;
     font-size: 16px;
@@ -215,14 +215,14 @@ header {
     margin-bottom: 24px;
 }
 
-.modal-form-field {
+.modal__form-field {
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
 }
 
-.modal-field-name {
+.modal__field-name {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -230,7 +230,7 @@ header {
     color: #000000;
     }
 
-.modal-field-input {
+.modal__field-input {
     background: #FFFFFF;
     border: 1px solid #005BBB;
     border-radius: 8px;
@@ -241,7 +241,7 @@ header {
     padding: 4px 8px;
 }
 
-.modal-form-btn {
+.modal__form-btn {
     background: #FF6B0A;
     border-radius: 8px;
     padding: 12px 24px;
@@ -264,11 +264,11 @@ header {
     background: none;
 }
 
-.modal-descr {
+.modal__descr {
     margin-bottom: 0;
 }
 
-.modal-active {
+.modal__active {
     opacity: 1;
     pointer-events: all;
 }
